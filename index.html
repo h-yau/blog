@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <style>
+
+        /* For the sake of simplicity and due to the limitations of GA Dash, I will not separate the CSS and JS into separate files. */
+
+
+    </style>
+    <title>Hin's Blog</title>
+    </head>
+    <body>
+    <header class="header">
+        <p class="hidden">DISCLAIMER: This site is for educational purposes only. I hereby declare that I do not own the rights to the image. All rights belong to the owners. No Copyright Infringement Intended.</p>
+        <form action="" class="color-selector">
+            <fieldset>
+                <legend hidden>Pick a color theme</legend>
+                <label class="hidden" for="light">Light</label>
+                <input name="theme" id="light" type="radio" checked>
+                <label class="hidden" for="dark">Dark</label>
+                <input name="theme" id="dark" type="radio">
+            </fieldset>
+        </form>
+        <a href="" class="home">
+            <img class="profile-picture" src="https://raw.githubusercontent.com/nzxzn/adobeImages/main/Square.jpg" alt="Hin's Profile Picture">
+            <h1>Hin's Blog</h1>
+        </a>
+    </header>
+    <ul class="nav-list">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Best Poems</a></li>
+        <li><a href="#">Worst Poems</a></li>
+    </ul>
+    <main class="articles-container">
+        <article class="article-card">
+            <h2>Pellentesque ut tellus eu nisl facilisis</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget mauris pharetra et ultrices neque ornare aenean euismod. Consequat interdum varius sit amet mattis. Laoreet id donec ultrices tincidunt arcu non. Iaculis nunc sed augue lacus viverra vitae congue eu. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Ultricies leo integer malesuada nunc vel risus. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Urna neque viverra justo nec ultrices dui. Amet consectetur adipiscing elit duis tristique sollicitudin nibh. Purus viverra accumsan in nisl. Fusce ut placerat orci nulla pellentesque dignissim. Et tortor consequat id porta nibh venenatis.</p>
+            <button name="Like" class="button like-button">
+                <svg class="like-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>thumb-up</title><path d="M23,10C23,8.89 22.1,8 21,8H14.68L15.64,3.43C15.66,3.33 15.67,3.22 15.67,3.11C15.67,2.7 15.5,2.32 15.23,2.05L14.17,1L7.59,7.58C7.22,7.95 7,8.45 7,9V19A2,2 0 0,0 9,21H18C18.83,21 19.54,20.5 19.84,19.78L22.86,12.73C22.95,12.5 23,12.26 23,12V10M1,21H5V9H1V21Z" /></svg>
+            </button>
+            <button name="Favorite" class="button favorite-button">
+                <svg class="favorite-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>heart</title><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" /></svg>
+            </button>
+            <button name="Save" class="button save-button">
+                <svg class="save-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star</title><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" /></svg>
+            </button>
+        </article>
+        <article class="article-card">
+            <h2>Maecenas interdum risus sodales elit fringilla, pulvinar.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum eu facilisis sed odio morbi quis commodo odio. Suscipit tellus mauris a diam maecenas sed enim ut sem. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Nisi quis eleifend quam adipiscing vitae proin sagittis. Ultrices sagittis orci a scelerisque purus semper eget duis. Nisi scelerisque eu ultrices vitae auctor. In hendrerit gravida rutrum quisque non tellus. Quam elementum pulvinar etiam non. Volutpat ac tincidunt vitae semper quis lectus. Facilisis volutpat est velit egestas dui id.</p>
+            <button name="Like" class="button like-button">
+                <svg class="like-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>thumb-up</title><path d="M23,10C23,8.89 22.1,8 21,8H14.68L15.64,3.43C15.66,3.33 15.67,3.22 15.67,3.11C15.67,2.7 15.5,2.32 15.23,2.05L14.17,1L7.59,7.58C7.22,7.95 7,8.45 7,9V19A2,2 0 0,0 9,21H18C18.83,21 19.54,20.5 19.84,19.78L22.86,12.73C22.95,12.5 23,12.26 23,12V10M1,21H5V9H1V21Z" /></svg>
+            </button>
+            <button name="Favorite" class="button favorite-button">
+                <svg class="favorite-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>heart</title><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" /></svg>
+            </button>
+            <button name="Save" class="button save-button">
+                <svg class="save-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star</title><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" /></svg>
+            </button>
+        </article>
+        <article class="article-card">
+           <h2>Etiam ultricies feugiat dictum. Fusce.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas sed enim ut sem. Fringilla urna porttitor rhoncus dolor purus. Viverra nibh cras pulvinar mattis nunc. Pretium vulputate sapien nec sagittis aliquam malesuada. Cras sed felis eget velit aliquet sagittis id. Eget arcu dictum varius duis at consectetur lorem. Ornare suspendisse sed nisi lacus. Sed risus pretium quam vulputate dignissim suspendisse in. Sodales ut etiam sit amet. Eget felis eget nunc lobortis mattis. Blandit libero volutpat sed cras ornare arcu dui. Sit amet dictum sit amet justo donec enim diam. In eu mi bibendum neque. Phasellus egestas tellus rutrum tellus pellentesque eu. Faucibus pulvinar elementum integer enim neque volutpat. Eget mi proin sed libero enim sed faucibus turpis. Eget nunc lobortis mattis aliquam faucibus purus in. Vestibulum lectus mauris ultrices eros. Et netus et malesuada fames ac.</p>
+            <button name="Like" class="button like-button">
+                <svg class="like-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>thumb-up</title><path d="M23,10C23,8.89 22.1,8 21,8H14.68L15.64,3.43C15.66,3.33 15.67,3.22 15.67,3.11C15.67,2.7 15.5,2.32 15.23,2.05L14.17,1L7.59,7.58C7.22,7.95 7,8.45 7,9V19A2,2 0 0,0 9,21H18C18.83,21 19.54,20.5 19.84,19.78L22.86,12.73C22.95,12.5 23,12.26 23,12V10M1,21H5V9H1V21Z" /></svg>
+            </button>
+            <button name="Favorite" class="button favorite-button">
+                <svg class="favorite-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>heart</title><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" /></svg>
+            </button>
+            <button name="Save" class="button save-button">
+                <svg class="save-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star</title><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" /></svg>
+            </button>
+        </article>
+    </main>
+    <script>
+
+        // Replacing JQuery with Arrow Functions in ES6
+        const toggleDarkTheme = () => {
+            document.body.classList.toggle("dark");
+        };
+
+        const radioInputs = document.querySelectorAll('input[type="radio"]');
+        radioInputs.forEach((radio) => {
+            radio.addEventListener("change", (radio) => {
+                toggleDarkTheme();
+            })
+        });
+
+        const toggleClick = (button) => {
+            if (button == null) {
+                return false;
+            }
+            return button.classList.toggle("clicked");
+        };
+
+        const buttons = Array.from(document.querySelectorAll(".button"));
+        
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const isClickedAdded = toggleClick(button);
+                if (isClickedAdded) {
+                    alert(`${button.name}d!`);
+                }
+            });
+        });
+
+        
+    </script>
+</body>
+</html>
