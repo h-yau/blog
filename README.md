@@ -1,3 +1,3 @@
 # blog
 
-[Live repo](https://nzxzn.github.io/blog/)
+[Live repo](https://h-yau.github.io/blog/)
