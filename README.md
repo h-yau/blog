@@ -1,9 +1,6 @@
-# blog
+# Sample Blog with CSS Techniques 🎨✨
 
 [Live repo](https://h-yau.github.io/blog/)
-
-
-# Sample Blog with CSS Techniques 🎨✨
 
 Welcome to the Sample Blog showcasing various CSS techniques! This project is a hands-on exploration of different styling methods, animations, and responsive layouts. Dive in to discover the magic of CSS in action.
 
